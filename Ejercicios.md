@@ -16,6 +16,7 @@ gtt_employee_summary:
 | diff_vs_dept_avg | NUMBER               | Campo a calcular                                                                 |
 | seniority_level  | VARCHAR2(20)         | Campo a calcular                                                                 |
 | load_date        | DATE DEFAULT SYSDATE | Se autocompleta con la fecha/hora del INSERT si no se especifica explícitamente. |
+
 Q2)  Carga de Staging con Columnas Analíticas
 
 Ya definio la estructura de `gtt_employee_summary` como tabla de staging de sesión. El área de Analytics ahora requiere que complete la **carga inicial** de esa tabla a partir de la fuente transaccional (`employees`, `departments`), aplicando las transformaciones de negocio acordadas con RRHH. Desarrolle el `INSERT INTO ... SELECT` que puebla `gtt_emp_summary`, cumpliendo los siguientes requerimientos funcionales:
