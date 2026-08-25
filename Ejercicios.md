@@ -30,3 +30,7 @@ Ya definio la estructura de `gtt_employee_summary` como tabla de staging de sesi
     - Menos de 5 años → `'Junior'`
     - Entre 5 y 14 años → `'Intermedio'`
     - 15 años o más → `'Senior'`
+
+
+Q3) Sobre el esquema HR, escribir una consulta en Oracle que muestre el número de identificación 
+(employee_id) de todos los empleados que pertenecen al departamento de Ventas ("Sales").
